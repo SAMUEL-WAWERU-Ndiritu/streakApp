@@ -1,0 +1,195 @@
+body{
+  
+}
+
+.container{
+ background-color: #ff7151 ;
+ width:100%;
+ height:100vh;
+ display:flex;
+ justify-content:space-evenly;
+ flex-direction: row;
+gap:100px;
+ align-items:center;
+}
+ion-icon{
+font-size: 70px;
+color: white;
+
+}
+.msg{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  
+}
+.container > .img-1 > img {
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  /* border: 1px solid red; */
+  z-index:100;
+}
+.container > .img-2 > img {
+  width:20vw;
+  height:70vh;
+  margin:auto;
+}
+.container > .content{
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+}
+h2{
+  color:white;
+  font-size: 23px;
+  font-weight: 800;
+}
+.activities{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+/* #activities {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#activities div {
+  width: 50%;
+  text-align: center;
+
+  padding: 10px;
+} */
+#add-form {
+  display: none;
+}
+#notification {
+  display: none;
+}
+#hg{
+  display:flex;
+}
+.fom{
+  display: flex;
+  margin: auto;
+  justify-content:space-evenly;
+  /* gap:100px; */
+ align-items:center;
+  color:white;
+  z-index: 100;
+  width:100%;
+  height: 100vh;
+  background-color: #ff7151;
+}
+.fot{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px;
+  border: 1px solid white;
+  width:40vw;
+  padding: 20px;
+  align-items: center;
+  color:red;
+  text-align: left;
+  background-color: white;
+}
+.fot > label > input{
+  width: 40vw;
+  height: 40px;
+  border-radius: 7px;
+  margin: 10px;
+  border: 1px solid grey;
+  outline: none;
+  background: white;
+}
+.fot > .con {
+  color: white;
+  background-color: white;
+  width:100%;
+  /* padding: 20px;
+  margin: 20px; */
+  /* border: 1px solid red; */
+}
+.fot > .con > p{
+  background: #ff7151;
+  padding: 10px;
+}
+.fot > button{
+  width: 40vw;
+  height: 40px;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  background: #ff7151;
+  font-size: 19px;
+  font-weight: bold;
+}
+.fom > div > img{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  /* border: 1px solid red; */
+  z-index:100;
+}
+.fom > div > p > .fa-list{
+  font-size: 100px;
+  color:white;
+  /* padding-top: 80px; */
+
+}
+.fom > div > p {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-top: -30px;
+}
+#notification{
+  background:rgb(150, 150, 5);
+  color:white;
+  /* padding:5px; */
+  /* width:96%; */
+  padding-left: 100px;
+  padding-right: 0px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: larger;
+}
+#forrm{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+#forrm > input{
+  width: 100px;
+}
+/* #id_img{
+  object-fit: contain;
+} */
+
+.updt{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: -200px;
+  z-index: 100;;
+}
+.updt > div {
+  background-color: whitesmoke;
+  width: 50vw;
+  height: 50vh;
+  object-fit: contain;
+}
+.updt > div > img {
+  width: 100%;
+  height:60%;
+}

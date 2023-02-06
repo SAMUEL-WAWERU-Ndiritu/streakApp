@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./dist/index.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" href="./fonts/css/font-awesome.min.css"/>
+    <title>Activity Manager</title>
+   
+  </head>
+  <body>
+    <div id="notification"></div>
+    <div class='container'>
+      
+      <div class="img-1"><img id="add-button"  src="./imgs/ty.jpeg" alt=""/></div>
+     <!-- <div class="img-1">  <ion-icon  id="add-button" name="add-circle-outline"></ion-icon></div>  -->
+     <div class="img-2"><img id='img3' src="./imgs/dem.png" alt=""/></div>
+     <div class="content"><h2>Welcome To My Steak Counter</h2></div>
+     
+ 
+    </div>
+  
+
+
+
+    <!-- <button id="add-button">Add Activity</button> -->
+    
+
+     
+      <form  id="add-form">
+        <div class="fom">
+          <div id="cancel"><ion-icon name="close-circle-outline"></ion-icon></div>
+          <div><p><i class="fa fa-list" aria-hidden="true"></i></p>
+          
+            <p>Add a Todo here</p></div>
+          
+          <div class="fot">
+            <div class="er"> <p class="err"></p></div>
+            <div class="con"><p>Please add some task</p></div>
+          <label>
+            Name: <br/>
+            <input type="text" name="name" />
+          </label>
+          <br />
+          <label>
+            Image:<br/>
+            <input type="url" name="image" />
+          </label>
+          <br />
+          <label>
+            Start Date:<br/>
+            <input type="date" name="start-date" />
+          </label>
+          <br />
+          <button type="submit">Submit</button>
+        </div>
+        
+        </div>
+
+      
+        
+      </form>
+      <div class="MainDiv">
+        <div id="activities" ></div>
+      </div>
+      <div id="activities" ></div>
+      <div id="best-streak"></div>
+     
+    
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   
+  
+  </body>
+</html>
